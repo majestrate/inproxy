@@ -67,7 +67,7 @@ Set up proxy server:
     
     # mkdir -p /opt/inproxy/bin
     # cp /usr/local/src/inproxy/inproxy /opt/inproxy/bin/
-    # /usr/local/src/inproxy/configure i2p.$INPROXY_DOMAIN > /opt/inproxy/inproxy.ini
+    # /usr/local/src/inproxy/configure i2p.$INPROXY_DOMAIN > /opt/inproxy/inproxy.json
     # cp /usr/local/src/inproxy/contrib/systemd/inproxy.service /etc/systemd/system/
     # systemctl enable inproxy
     # systemctl start inproxy
