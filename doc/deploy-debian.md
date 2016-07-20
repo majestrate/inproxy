@@ -85,4 +85,6 @@ Update Dns Record: (Given you are using `site.tld`)
     *.i2p.site.tld. IN CNAME site.tld.
 
 
-If everything works then try: http://em763732l4b7b7zhaolctpt6wewwr7zw3nsxfchr6qmceizzmgpa.b32.i2p.site.tld/ , replace `site.tld` with your domain
+If everything works then try: http://em763732l4b7b7zhaolctpt6wewwr7zw3nsxfchr6qmceizzmgpa.b32.i2p.site.tld/
+
+Replace `site.tld` with your domain
