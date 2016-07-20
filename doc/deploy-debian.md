@@ -20,7 +20,6 @@ Get dependancies:
 
 Build i2pd:
 
-    # apt install
     # mkdir -p /usr/local/src/i2pd
     # cd /usr/local/i2pd
     # wget https://github.com/PurpleI2P/i2pd/archive/2.8.0.tar.gz -O i2pd-2.8.0.tar.gz
@@ -30,7 +29,7 @@ Build i2pd:
 
 Set Up i2pd:
 
-    # cp /usr/local/src/i2pd/i2pd /usr/bin/
+    # cp /usr/local/src/i2pd/i2pd-2.8.0/i2pd /usr/bin/
     # useradd i2pd
     # mkdir /home/i2pd/
     # chown i2pd:i2pd /home/i2pd/
