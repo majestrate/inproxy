@@ -1,10 +1,8 @@
-GOPATH=$(PWD)
+REPO := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 
 all:
-	go build inproxy
-	go build configure
+	GOPATH=$(REPO) go build -o i2proxy
 
 clean:
-	go clean
+	GOPATH=$(REPO) go clean
 	rm -f inproxy
-	rm -f configure
